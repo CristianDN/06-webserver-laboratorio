@@ -4429,3 +4429,17 @@
 			}
 
 		}
+/* Inyección de fondo forzada por Cristhian para producción */
+#banner.bg-img::after {
+    background-image: url("../images/banner.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    opacity: 1 !important;
+}
+
+#one.bg-img::after {
+    background-image: url("../images/banner.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    opacity: 1 !important;
+}
